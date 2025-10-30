@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="trans.css">
+    <style>
+    
+    .box1
+    {
+        border:2px solid black;
+        width:100px;
+        height:100px;
+        background-color:lightblue; 
+    }
+    .box1:hover
+    {
+        transform:translateX(100px);
+        background-color:lightgreen; 
+        transition: all 2s ease-in-out;
+    }
+     .box2
+    {
+        border:2px solid black;
+        width:100px;
+        height:100px;
+        background-color:lightblue; 
+    }
+    .box2:hover
+    {
+        transform:translateX(100px);
+        background-color:lightgreen; 
+        transition: all 2s ease-in-out;
+    }
+    .box3
+    {
+        border:2px solid black;
+        width:100px;
+        height:100px;
+        background-color:lightblue; 
+    }
+    .box3:hover
+    {
+        transform:translateX(100px);
+        background-color:lightgreen; 
+        transition: all 2s ease-in-out;
+    }
+    .box4:hover{
+        transform:(skew(20deg,10deg));
+        background-color:lightgreen; 
+        transition: all 2s ease-in-out;
+    }
+    .box4
+    {
+        border:2px solid black;
+        width:100px;
+        height:100px;   
+        background-color:lightblue;
+    }
+    .box4:hover
+    {
+        transform:rotateX(180deg);
+        background-color: lightblue;
+        transition:all 2s ease-in-out;
+    }
+    .box4:hover
+    {
+        transform:skew(10deg,10deg);
+    transition: 2s;
+    }
+    .box4.box4:hover
+    {
+        transform:scaleY(1.5);
+        transition: 2s;
+    }
+    .box4:hover
+    {
+        transform:scaleX(1.5deg);
+        transition:2s;
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <a href="https://youtu.be/_J-G2ZCEJUw">box1</a>
+    </div>
+    <a href="https://youtu.be/MAm0RLQpYas">box2</div>
+    <div class="box3">box3</div>
+    <div class="box4">box4</div>
+</body>
+</html>
