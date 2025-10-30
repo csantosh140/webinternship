@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .box {
+        border:5px solid black;
+        width:100px;
+        height:100px;
+        margin:10px;
+        padding:20px;
+        color:blue;
+
+    }
+    .iblock {
+        display: inline-block;
+        border:2px solid black;
+        font-size: 15px;
+    }
+    .parent{
+        font-size:0
+    }
+    .e1{
+        color:red;
+    }
+    .someone{
+        color:green;
+    }
+</style>
+</head>
+<body>
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+</body>
+<body>
+    <div class="parent">
+    <div class="iblock">hi</div>
+    <div class="iblock">hello</div>
+    <div class="e1 someone">foo</div>
+</body>
+<body>
+    <div class="e1 someone">This text is red and green?</div>
+    <div class="div1">product1</div>
+    <div class="div2">product2</div>
+    <div class="div3">product3</div>
+    <div class="div4">product4</div>
+    <div class="div5">product5</div>
+</body>
+<body>
+    <div class="product1">product1</div>
+    <div class="product2">product1</div>
+    <div class="product3">product1</div>
+    <div class="product4">product1</div>
+    <div class="product5">product1</div>
+</body>
+<body>
+    <div class="div" id=""></div>
+    <div class="div" id=""></div>
+    <div class="div" id=""></div>
+    <div class="div" id=""></div>
+    <div class="div" id=""></div>
+</body>
+
+</html>
